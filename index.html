@@ -94,7 +94,7 @@
         
         **/
         map.on('measurefinish', function(evt) {
-        	writeResults(en);
+        	writeResults(evt);
       	});
 
       	function writeResults(results) {
@@ -112,9 +112,7 @@
         			.setContent(s)
         			.addTo(map);
 			}
-
 			map.on('click', onMapClick);
-        	
       		
       		/* Results That can be obtained
             	area: results.area,
