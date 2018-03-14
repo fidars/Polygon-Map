@@ -1,4 +1,4 @@
-# Polygon-Map
+# Estimation of Nominal Power(Solar Potential) based on a location on Map
 This Web Application uses Leaflet Js Libraries to draw a polygon over Open Street Map and measures it's area and calculate the nominal solar power that can be generated with the solar installation in polygon.
 
 For Demo: https://fidars.github.io/Polygon-Map/
